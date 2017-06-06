@@ -1,0 +1,211 @@
+Crawl Overview Report by the Screaming Frog SEO Spider (7.2),,,,
+Site Crawled,http://vibrantmediaproductions.com/,,,
+Date,"Tuesday, Jun 6, 2017",,,
+Time,15:46:36 EDT,,,
+,,,,
+Summary,Number of URI,% of Total URI,Total URI,Total URI Description
+Total URI Encountered,504,100.00%,504,URIs Encountered
+Total URI Crawled,489,97.02%,504,URIs Encountered
+Total Internal blocked by robots.txt,6,1.19%,504,URIs Encountered
+Total External blocked by robots.txt,9,1.79%,504,URIs Encountered
+,,,,
+URIs Displayed,495,100.00%,495,URIs Displayed
+Total Internal URI,382,77.17%,495,URIs Displayed
+Total External URI,113,22.83%,495,URIs Displayed
+,,,,
+Internal,,,,
+All,382,100.00%,382,Internal URI
+HTML,26,6.81%,382,Internal URI
+JavaScript,8,2.09%,382,Internal URI
+CSS,20,5.24%,382,Internal URI
+Images,322,84.29%,382,Internal URI
+PDF,0,0.00%,382,Internal URI
+Flash,0,0.00%,382,Internal URI
+Other,6,1.57%,382,Internal URI
+,,,,
+External,,,,
+All,113,100.00%,113,External URI
+HTML,103,91.15%,113,External URI
+JavaScript,0,0.00%,113,External URI
+CSS,1,0.88%,113,External URI
+Images,1,0.88%,113,External URI
+PDF,0,0.00%,113,External URI
+Flash,0,0.00%,113,External URI
+Other,8,7.08%,113,External URI
+,,,,
+Protocol,,,,
+All,392,100.00%,392,All internal and non HTML external URIs
+HTTP,389,99.23%,392,All internal and non HTML external URIs
+HTTPS,3,0.77%,392,All internal and non HTML external URIs
+,,,,
+Response Codes,,,,
+All,495,100.00%,495,All Crawled URI
+Blocked by Robots.txt,6,1.21%,495,All Crawled URI
+Blocked Resource,0,0.00%,495,All Crawled URI
+No Response,3,0.61%,495,All Crawled URI
+Success (2xx),451,91.11%,495,All Crawled URI
+Redirection (3xx),25,5.05%,495,All Crawled URI
+Client Error (4xx),2,0.40%,495,All Crawled URI
+Server Error (5xx),0,0.00%,495,All Crawled URI
+,,,,
+Content,,,,
+Large Pages (Over 100kb),2,9.09%,22,Internal HTML pages with 2xx response
+Low Content Pages (Under 300 Words),3,13.64%,22,Internal HTML pages with 2xx response
+,,,,
+URI,,,,
+All,382,100.00%,382,Internal URI
+Non ASCII Characters,0,0.00%,382,Internal URI
+Underscores,0,0.00%,382,Internal URI
+Uppercase,0,0.00%,382,Internal URI
+Duplicate,4,1.05%,382,Internal URI
+Parameters,0,0.00%,382,Internal URI
+Over 115 Characters,1,0.26%,382,Internal URI
+,,,,
+Page Titles,,,,
+All,22,100.00%,22,Internal HTML pages with 2xx response
+Missing,0,0.00%,22,Internal HTML pages with 2xx response
+Duplicate,6,27.27%,22,Internal HTML pages with 2xx response
+Over 65 Characters,22,100.00%,22,Internal HTML pages with 2xx response
+Below 30 Characters,0,0.00%,22,Internal HTML pages with 2xx response
+Over 571 Pixels,22,100.00%,22,Internal HTML pages with 2xx response
+Below 200 Pixels,0,0.00%,22,Internal HTML pages with 2xx response
+Same as H1,0,0.00%,22,Internal HTML pages with 2xx response
+Multiple,0,0.00%,22,Internal HTML pages with 2xx response
+,,,,
+Meta Description,,,,
+All,22,100.00%,22,Internal HTML pages with 2xx response
+Missing,3,13.64%,22,Internal HTML pages with 2xx response
+Duplicate,4,18.18%,22,Internal HTML pages with 2xx response
+Over 156 Characters,12,54.55%,22,Internal HTML pages with 2xx response
+Below 70 Characters,0,0.00%,22,Internal HTML pages with 2xx response
+Over 930 Pixels,11,50.00%,22,Internal HTML pages with 2xx response
+Below 400 Pixels,0,0.00%,22,Internal HTML pages with 2xx response
+Multiple,0,0.00%,22,Internal HTML pages with 2xx response
+,,,,
+Meta Keywords,,,,
+All,22,100.00%,22,Internal HTML pages with 2xx response
+Missing,0,0.00%,22,Internal HTML pages with 2xx response
+Duplicate,12,54.55%,22,Internal HTML pages with 2xx response
+Multiple,0,0.00%,22,Internal HTML pages with 2xx response
+,,,,
+H1,,,,
+All,22,100.00%,22,Internal HTML pages with 2xx response
+Missing,6,27.27%,22,Internal HTML pages with 2xx response
+Duplicate,12,54.55%,22,Internal HTML pages with 2xx response
+Over 70 Characters,1,4.55%,22,Internal HTML pages with 2xx response
+Multiple,14,63.64%,22,Internal HTML pages with 2xx response
+,,,,
+H2,,,,
+All,22,100.00%,22,Internal HTML pages with 2xx response
+Missing,9,40.91%,22,Internal HTML pages with 2xx response
+Duplicate,8,36.36%,22,Internal HTML pages with 2xx response
+Over 70 Characters,9,40.91%,22,Internal HTML pages with 2xx response
+Multiple,5,22.73%,22,Internal HTML pages with 2xx response
+,,,,
+Images,,,,
+All,323,100.00%,323,Images with 2xx response
+Over 100 kb,110,34.06%,323,Images with 2xx response
+Missing Alt Text,76,23.53%,323,Images with 2xx response
+Alt Text Over 100 Characters,7,2.17%,323,Images with 2xx response
+,,,,
+Directives,,,,
+All,372,100.00%,372,Internal URI with 2xx response
+Canonical,22,100.00%,22,Internal HTML or PDF pages with 2xx response
+Canonicalised,2,9.09%,22,Internal HTML or PDF pages with 2xx response
+No Canonical,0,0.00%,22,Internal HTML or PDF pages with 2xx response
+Next/Prev,3,13.64%,22,Internal HTML pages with 2xx response
+Index,17,4.57%,372,Internal URI with 2xx response
+Noindex,5,1.34%,372,Internal URI with 2xx response
+Follow,22,5.91%,372,Internal URI with 2xx response
+Nofollow,0,0.00%,372,Internal URI with 2xx response
+None,0,0.00%,372,Internal URI with 2xx response
+NoArchive,0,0.00%,372,Internal URI with 2xx response
+NoSnippet,0,0.00%,372,Internal URI with 2xx response
+NoODP,0,0.00%,372,Internal URI with 2xx response
+NoYDIR,0,0.00%,372,Internal URI with 2xx response
+NoImageIndex,0,0.00%,372,Internal URI with 2xx response
+NoTranslate,0,0.00%,372,Internal URI with 2xx response
+Unavailable_After,0,0.00%,372,Internal URI with 2xx response
+Refresh,0,0.00%,22,Internal HTML pages with 2xx response
+,,,,
+Hreflang,,,,
+All,372,100.00%,372,Internal pages with 2xx response
+Missing Confirmation Links,0,0.00%,372,Internal pages with 2xx response
+Inconsistent Language Confirmation Links ,0,0.00%,372,Internal pages with 2xx response
+Non Canonical Confirmation Links,0,0.00%,372,Internal pages with 2xx response
+Incorrect Language Codes,0,0.00%,372,Internal pages with 2xx response
+Multiple Entries,0,0.00%,372,Internal pages with 2xx response
+Missing Self Reference,0,0.00%,372,Internal pages with 2xx response
+Not Using Canonical,0,0.00%,372,Internal pages with 2xx response
+Missing X-Default,0,0.00%,372,Internal pages with 2xx response
+Missing,372,100.00%,372,Internal pages with 2xx response
+,,,,
+AJAX,,,,
+All,0,0.00%,0,Internal pages crawled in escaped fragment form
+With hash fragment,0,0.00%,0,Internal pages crawled in escaped fragment form
+Without hash fragment,0,0.00%,0,Internal pages crawled in escaped fragment form
+,,,,
+Custom,,,,
+Filter 1,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 2,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 3,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 4,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 5,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 6,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 7,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 8,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 9,0,0.00%,22,Internal HTML pages with 2xx response
+Filter 10,0,0.00%,22,Internal HTML pages with 2xx response
+Extraction,22,100.00%,22,Internal HTML pages with 2xx response
+,,,,
+Analytics,,,,
+All,32,100.00%,32,Internal URI with associated Google Analytics data
+Sessions Above 0,0,0.00%,32,Internal URI with associated Google Analytics data
+Bounce Rate Above 70%,0,0.00%,32,Internal URI with associated Google Analytics data
+No GA Data,0,0.00%,32,Internal URI with associated Google Analytics data
+,,,,
+Search Console,,,,
+All,32,100.00%,32,Internal URI with associated Google Search Console data
+Clicks Above 0,0,0.00%,32,Internal URI with associated Google Search Console data
+No GSC Data,0,0.00%,32,Internal URI with associated Google Search Console data
+,,,,
+,,,,
+Depth (Clicks from Start URL),,,,
+0,1,4.55%,22,Internal HTML pages with 2xx response
+1,16,72.73%,22,Internal HTML pages with 2xx response
+2,2,9.09%,22,Internal HTML pages with 2xx response
+3,3,13.64%,22,Internal HTML pages with 2xx response
+4,0,0.00%,22,Internal HTML pages with 2xx response
+5,0,0.00%,22,Internal HTML pages with 2xx response
+6,0,0.00%,22,Internal HTML pages with 2xx response
+7,0,0.00%,22,Internal HTML pages with 2xx response
+8,0,0.00%,22,Internal HTML pages with 2xx response
+9,0,0.00%,22,Internal HTML pages with 2xx response
+10+,0,0.00%,22,Internal HTML pages with 2xx response
+,,,,
+Inlinks (Top 20 URI),,,,
+http://vibrantmediaproductions.com/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/client-testimonials/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/blog/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/website-and-tv-commercials/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/live-event-videos/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/contact-us/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/costa-rica-capital-land-partners-production-project/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/real-estate/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/vmp-real-esate-video-helps-cushman-wakefield-sell-67-9-million-integra-cove-project/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/aerial-coverage/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/vmp-real-esate-commercial-video-cushman-wakefield-large-sale/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/orlando-photography/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/conventions-interviews-trade-shows/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/our-work/corporate-marketing-branding-videos/,22,100.00%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/category/orlando-video-production-blog1/,7,31.82%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/author/alex/,6,27.27%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/2016/12/,5,22.73%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/2016/10/,5,22.73%,22,Internal HTML pages with a 2xx response or 3xx responses
+http://vibrantmediaproductions.com/2016/09/,5,22.73%,22,Internal HTML pages with a 2xx response or 3xx responses
+,,,,
+Response Time (Seconds),Number of URI,% of Total,,
+1,454,92.84,,
+2,29,5.93,,
+3,3,0.61,,
