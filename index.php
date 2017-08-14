@@ -1,94 +1,69 @@
+<?php
+  require('slots.inc.php');
+  $previousVisit= 0;
+  if (isset($_COOKIE['user'])){
+    $previousVisit = 1;
+  } else {
+  // Trying to create a decently random user number and setting a cookie
+  $userNum = rand(1,9000) + rand(1,9000);
+  setcookie("user", $userNum, time() + (10 * 365 * 24 * 60 * 60));
+}
+?>
+
+
 <!DOCTYPE html>
-<html >
-<head>
-  <meta charset="UTF-8">
-  <title>Hit the Button</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-      <link rel="stylesheet" href="css/style.css">
-</head>
+<html>
 
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <title>ASCII Slot Machine - OOP PHP Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:400,500|Roboto:400,500" rel="stylesheet">
+  </head>
 
-<div class="timeline-small">
-  <div class="header">
-    <div class="color-overlay">
-      <div class="header-name">PHP Button Mini Project</div>
-      <div class="header-sub">Click the button in the box below</div>
+  <body>
+
+<?php
+if ($previousVisit == 1 || !isset($_POST['submit'])) {
+?>
+    <h1>Proof of concept</h1>
+
+    <div class="win">
+
+<?php
+  $slotsObject = new RandomCreditGenerator;
+  echo "Congrats, you have won " . $slotsObject->credits . " Credits to start with!";
+?>
+
     </div>
-  </div>
-        <div class="whoa">
-          <form action="#" method="post">
-            <button class="button1" type="submit" name="btn" formmethod="post" formaction="#">Hit This Button!</button>
+    <p></p>
 
-            <?php
-              // Setting the default timezone so it shows the right time in demos - would normally adjust this on the server
-              date_default_timezone_set('America/New_York');
-              // Setting up variables for the date, time, and getting the visitors ip
-              $daDate = date("m-d-Y");
-              $daTime = date("h:ia");
-              $ip = $_SERVER['REMOTE_ADDR'];
+    <div class="instructions"><div class="important">Instructions:</div><br/>Enter below the amount of credits you would like to wager, then pull the handle on the machine (click) to try your luck. If you get three "$" in a row, you win the jackpot!</div>
+      <div class="msg">How many Credits would you like to wager?
+      <form>
+        <input type="text" size="20" name="credits"><span class="credits"> Credits</span>
+      </form>
+    </div>
 
-              // If the button was pressed (checking POST) displays the date/time from above
-              if (isset($_POST['btn'])){
-                echo "<p>You hit the button at " . $daTime . " on " . $daDate;
+    <div class="blah">
+      &nbsp;[ - - - ]&nbsp;<span class="handle"><a href="/slots/machine.php">O</a></span>
+      <br/>&nbsp;[&nbsp;$&nbsp;#&nbsp;@&nbsp;]<span class="handle"><a href="/slots/machine.php">&nbsp;|</a></span>
+      <br/>><span id="results">[&nbsp;*&nbsp;+&nbsp;$&nbsp;]</span>]<span class="handle"><a href="/slots/machine.php">]</a></span>
+      <br/>&nbsp;[&nbsp;@&nbsp;*&nbsp;+&nbsp;]
+      <br/>&nbsp;[ - - - ]
+    </div>
 
-                // Learing how to connect to a database here
-                // Setting variables to pass in to db connection
-                $server = "localhost";
-                $user = "root";
-                $pass = "";
-                $db = "timestamps";
+<?php } else { ?>
 
-                // This is everything needed to connect to the database - added "die" to terminate on unsuccessful connect
-                // This is a database connection object
-                $conn = new mysqli($server, $user, $pass, $db) or die("Unable to connect to database");
+    <h1>Welcome</h1>
+    <p>Click the button for your starting credits:
+    <br/>
+    <form action="#" method="post">
+    <input type="submit" name="submit" value="Generate Credits">
+    </form>
+    </p>
+<?php } ?>
 
-                // SQL statement matching visitors ip and getting all records associated with that ip
-                $sql = "SELECT datetime, ip FROM info WHERE ip = '$ip' ORDER BY datetime DESC";
-                // This is a database connection function
-                $result = mysqli_query($conn, $sql);
-                // Setting up SQL to log the date/time and ip upon button press
-                $sql = "INSERT INTO info (datetime, ip) VALUES (NOW(), '$ip')";
+  </body>
 
-
-                if ($conn->query($sql) === TRUE) {
-                    // echo " </p>You previously hit the button at: ";
-                } else {
-                    echo "Error: " . $sql . "<br>" . $conn->error;
-                }
-                // Logic looking at if this is the first button click or not and displaying text based on that
-                if (mysqli_num_rows($result) < 1) {
-                  echo "</p><em>Click the button again to see your click history</em>";
-                } else {
-                  echo "</p>You previously hit the button at: ";
-                }
-
-                echo "<br/> ";
-
-                // Gets the data from db and spits it out to screen
-                if (mysqli_num_rows($result) > 0) {
-                      // Output data of each row
-                      while($row = mysqli_fetch_assoc($result)) {
-                          $histDateTime = $row["datetime"];
-                          $date = date('m-d-Y',strtotime($histDateTime));
-                          $time = date('h:i:sa',strtotime($histDateTime));
-                          echo $time . " on " . $date . "<br/>";
-                      }
-                  }
-
-                $conn->close();
-
-              }
-
-            ?>
-              </p>
-
-          </form>
-
-        </div>
-  </div>
-</div>
-
-
-</body>
 </html>
